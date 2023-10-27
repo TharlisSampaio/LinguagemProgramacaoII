@@ -1,7 +1,7 @@
 # Contar o número de espaços em branco de uma frase
 
 if __name__ == '__main__':
-    
+
     print('Digite uam frase: ')
     frase = input()
     print(frase)
