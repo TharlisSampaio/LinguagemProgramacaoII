@@ -5,4 +5,4 @@
 if __name__ == '__main__':
     listName = ['fulano', 'fulano2', 'fulano3', 'fulnano4', 'fulano5']
     listComb = [(i, j) for i in listName for j in listName if i != j]
-    print(listComb)
+    print(len(listComb))
