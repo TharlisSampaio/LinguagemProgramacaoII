@@ -1,0 +1,7 @@
+6)Qual a diferença de desempenho entre as expressões? Uma expressão é
+preferível à outra? Por quê?
+1)sum(1/n for n in range(1, 10**7))
+2)sum([1/n for n in range(1, 10**7)])
+
+R.: A primeira, por utilizar um gerador, não irá armazena todos os valores em memoria, ou seja, vai calcular o valor conforme vai precisando. Já
+segunda expressão, irá criar a lista e armazena todos os valores em memoria, para depois executar o sum(), desta forma irá consumi mais memoria.

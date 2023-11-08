@@ -13,5 +13,7 @@ def gerarSerie():
 if __name__ == '__main__':
     # for i in range(5):
     #     print(i)
-    test = gerarSerie()
-    print(list(test))
+    # test = gerarSerie()
+    # print(list(test))
+    interador = ((i, i+2) for i in range(6) if i != 3)
+    print([x for x in interador])
