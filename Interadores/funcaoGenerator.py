@@ -1,5 +1,5 @@
 def geradora():
-    for i in range(10**7):
+    for i in range(10):
         yield i
 
 
