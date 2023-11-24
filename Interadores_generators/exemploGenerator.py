@@ -8,8 +8,8 @@ def imprimeLinha():
     print('linha4')
 
 
-#ret = imprimeLinha()
-#print(ret)
+# ret = imprimeLinha()
+# print(ret)
 
 gerador = imprimeLinha()
 print(next(gerador))
