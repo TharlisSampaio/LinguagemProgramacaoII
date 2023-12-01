@@ -7,6 +7,10 @@ cliente2 = Cliente('Tadeu', 'Silva', '95157365481')
 c1 = Conta(1, cliente, 1000, 500)
 c2 = Conta(2, cliente2, 2000, 600)
 print(c1)
+
+c1.set_limite = 200
+print(c1.limite)
+
 c1.sacar(100)
 c1.depositar(1200)
 print(c1.historico.transacoes)
