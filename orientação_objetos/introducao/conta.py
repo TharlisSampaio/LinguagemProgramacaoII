@@ -2,12 +2,18 @@ from historico import Historico
 
 
 class Conta:
+    _total_contas = 0
     def __init__(self, numero, cliente, saldo, limite):
         self.numero = numero
         self.titular = cliente
         self._saldo = saldo
         self._limite = limite
         self.historico = Historico()
+        Conta._total_contas += 1
+        
+    @classmethod
+    def get_total_contas(cls):
+        return cls._total_contas
 
     # Métodos para manipular os atributos
     def sacar(self, valor):
