@@ -1,0 +1,6 @@
+ Sabendo que em Python não existem atributos privados, como podemos modificar e ler esses atributos? É
+uma boa prática fazer isso?
+Em Python não existem atributos privados, mas há uma convenção de usar
+__ antes do nome do atributo. Lembrando que podemos acessar um atributo
+de um objeto de forma direta, ou seja, sem uso de metodos, sendo essa uma
+má prática.
