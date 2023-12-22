@@ -1,0 +1,5 @@
+7. E se criarmos uma classe que não é filha de Conta e tentar passar uma instância no método
+atualizar_contas(), o que acontece?
+Irá acontecer um error: 'ContaTest' object has no attribute 'get_titualr'
+já que as instância da classe ContaTest não tem os attributos 'get_titualr'
+ou 'get_saldo'.

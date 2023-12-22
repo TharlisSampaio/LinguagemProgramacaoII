@@ -1,0 +1,9 @@
+5. Se você precisasse criar uma classe ContaInvestimento, você precisaria alterar o método
+atualizar_contas()? Por quê?
+
+Se a classe ContaInvestimento não herda da classe Conta: ContaInvestimento
+não terá o método atualizar_contas(), ou jseja, terá que criar um metodo
+atualizar_contas() para ContaInvestimento.
+Caso a classe ContaInvestimento herda da classe Conta: Ela herdará o método
+atualizar_contas(), e só será preciso alterar o método caso a classe tenha um
+caso especifico por exemplo, tenha uma taxa de corretagem
