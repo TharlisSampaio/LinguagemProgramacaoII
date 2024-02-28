@@ -64,3 +64,8 @@ class Funcionario(ABC):
 
     def __str__(self) -> str:
         return f'Nome: {self.get_nome}, Email: {self.get_email}, Cargo: {self.get_cargo}, Salario: {self.get_salario}'
+
+
+if __name__ == '__main__':
+    f1 = Funcionario('blbla', 8945829, 'dfslf', 245894, '', 4500)
+    print(f1.__str__())
