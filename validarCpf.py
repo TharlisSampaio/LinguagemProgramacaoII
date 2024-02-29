@@ -29,4 +29,4 @@ if __name__ == '__main__':
         else:
             return False
 
-    print(validarCpf('043.327.592-80'))
+    print(validarCpf('300.300.300-30'))
