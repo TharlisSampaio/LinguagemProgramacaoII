@@ -1,0 +1,38 @@
+Nome do arquivo: compara_aTotal de caracteres: 7Total de vogais: ['a', 'e']Total de consoantes: ['b', 'c', 'd', 'f', 'g']Total de caracteres especiais: []Total de palavras: 1Total de linhas: 0
+Nome do arquivo: compara_a
+Total de caracteres: 7
+Total de vogais: ['a', 'e']
+Total de consoantes: ['b', 'c', 'd', 'f', 'g']
+Total de caracteres especiais: []
+Total de palavras: 1
+Total de linhas: 0
+Nome do arquivo: compara_a
+Total de caracteres: 7
+Total de vogais: 2
+Total de consoantes: 5
+Total de caracteres especiais: 0
+Total de palavras: 1
+Total de linhas: 0
+Nome do arquivo: compara_a
+Total de caracteres: 7
+Total de vogais: 2
+Total de consoantes: 5
+Total de caracteres especiais: 0
+Total de palavras: 1
+Total de linhas: 0
+Nome do arquivo: compara_a
+Total de caracteres: 7
+Total de vogais: 2
+Total de consoantes: 5
+Total de caracteres especiais: 0
+Total de palavras: 1
+Total de linhas: 0
+
+Nome do arquivo: compara_a
+Total de caracteres: 7
+Total de vogais: 2
+Total de consoantes: 5
+Total de caracteres especiais: 0
+Total de palavras: 1
+Total de linhas: 0
+

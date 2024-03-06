@@ -1,0 +1,4 @@
+Aluno: Fulano, media: 4.60
+Aluno: Tadeu, media: 7.85
+Aluno: Texugo, media: 8.85
+Aluno: Ratel, media: 6.23
