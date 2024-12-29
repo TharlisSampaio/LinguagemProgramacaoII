@@ -8,7 +8,7 @@ if __name__ == '__main__':
         conj = [10, 9, 8, 7, 6, 5, 4, 3, 2]
         cpf = [int(x) for x in entrada if x != '.' if x != '-']
         soma = reduce(lambda x, y: x+y, list(map(lambda x, y: x * y, cpf, conj)))
-        print(cpf)
+        # print(cpf)
 
         if (soma % 11 < 2):
             primeiroDigito = 0
@@ -29,4 +29,7 @@ if __name__ == '__main__':
         else:
             return False
 
-    print(validarCpf('300.300.300-30'))
+    cpfVerificar = ''
+    cpfVerificar = input()
+
+    print(validarCpf(cpfVerificar))
