@@ -9,6 +9,9 @@ class Carro:
     def acelerar(self):
         print(f'{self.nome} está acelerando')
 
+    def __str__(self):
+        return f'{self.nome}'
+
 
 fusca = Carro('Fusca')
 print(fusca.nome)
